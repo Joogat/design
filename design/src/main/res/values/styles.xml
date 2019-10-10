@@ -1,0 +1,47 @@
+<resources>
+
+    <style name="App"/>
+    <style name="App.Header" />
+
+    <style name="App.Header.Container" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/headerHeight</item>
+        <item name="android:paddingStart">@dimen/headerPaddingStart</item>
+        <item name="android:paddingEnd">@dimen/headerPaddingEnd</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="App.Header.Icon" >
+        <item name="android:layout_width">@dimen/headerIconWidth</item>
+        <item name="android:layout_height">@dimen/headerIconHeight</item>
+        <item name="android:padding">@dimen/headerIconPadding</item>
+    </style>
+
+    <style name="App.Header.Icon.Clickable">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?android:attr/actionBarItemBackground</item>
+    </style>
+
+    <style name="App.Header.Title" >
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/headerTitleTextSize</item>
+    </style>
+
+
+    <style name="Divider" >
+        <item name="android:background">@drawable/divider</item>
+    </style>
+
+    <style name="Divider.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="Divider.Vertical">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>

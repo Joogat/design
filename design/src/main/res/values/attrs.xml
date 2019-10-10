@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="appFont" format="reference" />
+    <attr name="appTextColor" format="color|reference" />
+    <attr name="appBg" format="color|reference" />
+    <attr name="appFormBg" format="color|reference" />
+    <attr name="conRadius" format="dimension" />
+
+    <attr name="colorAccentDark" format="color|reference" />
+    <attr name="colorBccent" format="color|reference" />
+    <attr name="colorCccent" format="color|reference" />
+    <attr name="colorCccentDark" format="color|reference" />
+
+</resources>
